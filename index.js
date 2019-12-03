@@ -9,5 +9,9 @@ function map(arr, fun) {
 }
 
 function reduce(arr, fun. startPoint){
+   let reducer = (accumulator, currentValue) => accumulator + currentValue
    
+   for(let i = 0; i < arr.length; i++){
+     arr.reduce(reducer, startPoint);
+   }
 }
