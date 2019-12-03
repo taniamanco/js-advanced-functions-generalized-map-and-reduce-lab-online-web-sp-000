@@ -8,7 +8,7 @@ function map(arr, fun) {
   return newArr; 
 }
 
-function reduce(arr, fun. startPoint){
+function reduce(arr, fun, startPoint){
    let reducer = (accumulator, currentValue) => accumulator + currentValue
    
    for(let i = 0; i < arr.length; i++){
