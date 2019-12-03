@@ -7,3 +7,4 @@ function map(arr, fun) {
   }
   return newArr; 
 }
+
