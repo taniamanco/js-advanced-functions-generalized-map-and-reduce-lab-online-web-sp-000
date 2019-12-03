@@ -8,3 +8,6 @@ function map(arr, fun) {
   return newArr; 
 }
 
+function rduce(arr, fun. startPoint){
+  let newArr = 
+}
