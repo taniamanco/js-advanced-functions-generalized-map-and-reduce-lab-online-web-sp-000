@@ -9,5 +9,5 @@ function map(arr, fun) {
 }
 
 function rduce(arr, fun. startPoint){
-  let newArr = 
+   
 }
