@@ -16,5 +16,3 @@ function reduce(arr, callback, startPoint){
   }  
   return memo;
 }
-
-reduce({}, () => {})
