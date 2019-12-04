@@ -13,3 +13,5 @@ function reduce(arr, fun, startPoint){
   
   
 }
+
+reduce({}, () => {})
