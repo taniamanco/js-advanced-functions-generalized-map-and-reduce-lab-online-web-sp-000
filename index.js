@@ -8,11 +8,11 @@ function map(arr, fun) {
   return newArr; 
 }
 
-function reduce(arr, fun, startPoint){
+function reduce(arr, callback, startPoint){
   let memo = startPoint;
   
   for(let i = 0; i < arr.length; i++) {
-      
+      memo = fun()
   }  
   
   return memo;
