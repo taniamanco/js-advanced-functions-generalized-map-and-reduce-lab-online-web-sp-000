@@ -9,5 +9,7 @@ function map(arr, fun) {
 }
 
 function reduce(arr, fun, startPoint){
-  let value = 
+  let value = arr[i]
+  
+  
 }
