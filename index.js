@@ -8,7 +8,7 @@ function map(arr, callback) {
   return newArr; 
 }
 
-function reduce(arr, callback, startPoint){
+function reduce(arr, callback, startPoint=0){
   let memo = startPoint;
   
   for(let i = 0; i < arr.length; i++) {
