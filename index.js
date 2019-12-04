@@ -11,6 +11,7 @@ function map(arr, callback) {
 function reduce(arr, callback, startPoint = 0){
   let memo = (typeof startPoint !== undefined) ? startPoint : arr[0];
   for(let i = 0; i < arr.length; i++) {
+      console.log(arr[i]);
       memo = callback(arr[i], memo);
   }
   return memo;
