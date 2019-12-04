@@ -8,9 +8,8 @@ function map(arr, callback) {
   return newArr; 
 }
 
-function reduce(arr, callback, startPoint=0){
-  let memo = typeof startPoint !== undefined ? startPoint : arr[0];
-  
+function reduce(arr, callback, startPoint = 0){
+  let memo = (typeof startPoint !== undefined) ? startPoint : arr[0];
   for(let i = 0; i < arr.length; i++) {
       memo = callback(arr[i], memo);
   }
