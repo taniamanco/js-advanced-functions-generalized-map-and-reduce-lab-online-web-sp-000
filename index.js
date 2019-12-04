@@ -8,3 +8,6 @@ function map(arr, fun) {
   return newArr; 
 }
 
+function reduce(arr, fun, startPoint){
+  let value = 
+}
